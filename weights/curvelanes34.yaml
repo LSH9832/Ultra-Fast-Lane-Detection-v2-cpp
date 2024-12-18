@@ -1,0 +1,22 @@
+model: mnn/curvelanes_res34.mnn
+input_name: input
+output_names:
+- loc_row
+- loc_col
+- exist_row
+- exist_col
+
+num_grid_row: 200
+num_cls_row: 72
+num_grid_col: 100
+num_cls_col: 81
+input_width: 1600
+input_height: 800
+local_width: 1
+num_lanes: 10
+batch: 1
+mode: [[-1], [-1]]
+h_start: 0.25
+ratio: 0.21
+show_info: true
+show_input: false
